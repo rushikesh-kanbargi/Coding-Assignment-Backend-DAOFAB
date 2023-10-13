@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.*.test
+.env.*.development
+.env.*.production
+.env.*.staging
+
+# Logs
+logs/
+*.log
+
+# Output of npm
+package-lock.json
+
+# .DS_Store files (macOS)
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Production build/output
+dist/
+
+# IDE and text editor specific files
+.idea/
+.vscode/
